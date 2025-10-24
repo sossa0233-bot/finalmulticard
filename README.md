@@ -19,7 +19,7 @@ Short bio
 
 Avatar
 
-Current time (dynamic)
+Current time (dynamic)    
 
 Social links
 
