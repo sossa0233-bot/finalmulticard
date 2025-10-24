@@ -93,4 +93,4 @@ CSS3 (Flexbox, Grid, gradients, responsive media queries)
 
 JavaScript (for dynamic time display and form validation)
 
-Netlify (for live hosting and form handling)
+Netlify
