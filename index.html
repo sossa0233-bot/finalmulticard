@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<article data-testid="test-profile-card">
+  <figure>
+    <img src="whatspp.png.jpg" alt="User Avatar" data-testid="test-user-avatar">
+  </figure>
+
+  <header>
+    <h2 data-testid="test-user-name">Samuel Sossa</h2>
+    <p data-testid="test-user-bio">
+      Creative front-end developer passionate about tech, art, and storytelling.
+    </p>
+    <span data-testid="test-user-time"></span>
+  </header>
+
+  <nav aria-label="Social Links">
+    <ul data-testid="test-user-social-links">
+      <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+      <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+      <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <section class="lists">
+  <div class="hobbies" data-testid="test-user-hobbies">
+    <h3>Hobbies</h3>
+    <ul>
+      <li>Coding</li>
+      <li>Gaming</li>
+      <li>Music</li>
+    </ul>
+  </div>
+
+  <div class="dislikes" data-testid="test-user-dislikes">
+    <h3>Dislikes</h3>
+    <ul>
+      <li>Procrastination</li>
+      <li>Poor UI</li>
+      <li>Slow internet</li>
+    </ul>
+  </div>
+</section>
+<footer>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+
+
+</article>
+
+<script src="script.js" defer></script>
+</body>
+</html>
